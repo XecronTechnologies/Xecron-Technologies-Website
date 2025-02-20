@@ -1,8 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './components/Home'
+import NavigationBar from './components/NavigationBar'
 
 const maintanence = '/Maintanence.gif'
 function App() {
@@ -11,6 +10,8 @@ function App() {
 
   return (
     <>
+    <NavigationBar />
+
       <img src={maintanence} alt="maintanence" />
       <h1>Site is Under Maintanence</h1>
       {/* <Home /> */}
