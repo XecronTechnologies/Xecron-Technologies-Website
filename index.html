@@ -1,13 +1,53 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/xecronbglogo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Xecron Technologies</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Xecron Technologies - Innovating the Future with Cutting-Edge Solutions. Explore our advanced tech services today!" />
+    <meta name="keywords" content="Xecron Technologies, IT Solutions, AI, Web Development, Software Development, Cloud Computing" />
+    <meta name="author" content="Xecron Technologies" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph (Social Media) Meta Tags -->
+    <meta property="og:title" content="Xecron Technologies - Innovating the Future" />
+    <meta property="og:description" content="Leading IT solutions provider specializing in AI, Web, and Software Development." />
+    <meta property="og:image" content="https://xecrontechnologies.in/logo.png" />
+    <meta property="og:url" content="https://xecrontechnologies.in" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Title -->
+    <title>Xecron Technologies | AI, Web, & Cloud Solutions</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="/xecronbglogo.png" type="image/png" />
+
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="/src/main.jsx" as="script">
+
+    <!-- Structured Data (Schema Markup) for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Xecron Technologies",
+      "url": "https://xecrontechnologies.in",
+      "logo": "https://xecrontechnologies.in/logo.png",
+      "description": "Leading IT solutions provider specializing in AI, Web, and Software Development.",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-234-567-890",
+        "contactType": "Customer Support"
+      }
+    }
+    </script>
+
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- Main React Script -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
