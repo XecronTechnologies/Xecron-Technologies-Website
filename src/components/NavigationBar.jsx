@@ -1,6 +1,6 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import logo from '/xecron-logo.png';
+import logo from '/xecron-technologies-image.png';
 import { navItems } from '../constants';
 
 const NavigationBar = () => {
@@ -14,7 +14,7 @@ const NavigationBar = () => {
             <div className="container px-4 mx-auto relative text-sm">
                 <div className="flex justify-between items-center">
                     <div className="flex items-center flex-shrink-0">
-                        <img className="h-8 w-auto mr-2" src={logo} alt="xecron technologies logo" />
+                        <img className="h-20 w-auto mr-2" src={logo} alt="xecron technologies logo" />
                         {/* <span className="text-xl tracking-tight">Xecron Technologies</span> */}
                     </div>
 

@@ -1,5 +1,6 @@
 import HeroSection from './HeroSection'
 import Footer from './Footer'
+import FeaturesSection from './FeaturesSection'
 
 import NavigationBar from './NavigationBar'
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       <NavigationBar />
       <div className="max-w-7xl mx-auto pt-20 px-6">
         <HeroSection />
+        <FeaturesSection />
       </div>
       <Footer />
     </div>
