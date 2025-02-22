@@ -14,7 +14,7 @@ function App() {
       <h1>This Site is Under Maintenance</h1> */}
       <Home />
       {/* <HeroSection /> */}
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }

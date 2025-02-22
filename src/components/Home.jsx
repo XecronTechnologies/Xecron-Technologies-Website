@@ -1,4 +1,6 @@
 import HeroSection from './HeroSection'
+import Footer from './Footer'
+
 import NavigationBar from './NavigationBar'
 const Home = () => {
   return (
@@ -7,6 +9,7 @@ const Home = () => {
       <div className="max-w-7xl mx-auto pt-20 px-6">
         <HeroSection />
       </div>
+      <Footer />
     </div>
   )
 }
