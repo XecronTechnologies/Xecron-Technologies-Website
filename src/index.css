@@ -6,6 +6,8 @@
 :root{
   font-family: "Poppins", sans-serif;
   color-scheme: dark;
+  pointer-events: auto;
+  user-select: none;
 }
 
 
