@@ -20,7 +20,32 @@ export const features = [
         icon: <BotMessageSquare />,
         text:"Drag-and-Drop Interface",
         description :"Easl y esugn an arrange your VR environments Wit a user— nen dra —and-dro interface.",
-    }
+    },
+    {
+        icon: <BotMessageSquare />,
+        text:"Drag-and-Drop Interface",
+        description :"Easl y esugn an arrange your VR environments Wit a user— nen dra —and-dro interface.",
+    },
+    {
+        icon: <BotMessageSquare />,
+        text:"Drag-and-Drop Interface",
+        description :"Easl y esugn an arrange your VR environments Wit a user— nen dra —and-dro interface.",
+    },
+    {
+        icon: <BotMessageSquare />,
+        text:"Drag-and-Drop Interface",
+        description :"Easl y esugn an arrange your VR environments Wit a user— nen dra —and-dro interface.",
+    },
+    {
+        icon: <BotMessageSquare />,
+        text:"Drag-and-Drop Interface",
+        description :"Easl y esugn an arrange your VR environments Wit a user— nen dra —and-dro interface.",
+    },
+    {
+        icon: <BotMessageSquare />,
+        text:"Drag-and-Drop Interface",
+        description :"Easl y esugn an arrange your VR environments Wit a user— nen dra —and-dro interface.",
+    },
 ]
 
 
