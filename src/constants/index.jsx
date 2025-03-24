@@ -16,7 +16,7 @@ import {
 
 // Navigation bar Items
 export const navItems = [
-    { label: "Home", href: "#" },
+    { label: "Homes", href: "#" },
     { label: "Workflow", href: "#" },
     { label: "Pricing", href: "#" },
     { label: "Testimonials", href: "#" },
